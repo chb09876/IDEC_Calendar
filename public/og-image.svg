@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f8fbff"/>
+      <stop offset="0.58" stop-color="#eef6f3"/>
+      <stop offset="1" stop-color="#fff7ed"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0f172a" flood-opacity="0.16"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bg)"/>
+  <rect x="72" y="74" width="1056" height="482" rx="28" fill="#ffffff" filter="url(#shadow)"/>
+  <rect x="72" y="74" width="1056" height="92" rx="28" fill="#12312f"/>
+  <rect x="72" y="132" width="1056" height="34" fill="#12312f"/>
+  <text x="112" y="132" fill="#ffffff" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="42" font-weight="700">IDEC 캘린더</text>
+  <text x="958" y="129" fill="#cde9df" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="24" font-weight="700">Lecture Calendar</text>
+  <text x="112" y="238" fill="#0f172a" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="56" font-weight="800">강의 기간과 신청 기간을</text>
+  <text x="112" y="304" fill="#0f172a" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="56" font-weight="800">한눈에 확인하세요</text>
+  <text x="116" y="358" fill="#475569" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="26" font-weight="500">석박사 우선 · 재직자 우선 · 전체 신청 기간을 구분해서 보는 IDEC 강의 일정표</text>
+  <g transform="translate(116 414)">
+    <rect width="180" height="52" rx="12" fill="#def7ec"/>
+    <text x="24" y="35" fill="#166534" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="22" font-weight="700">강의 캘린더</text>
+    <rect x="204" width="180" height="52" rx="12" fill="#e0f2fe"/>
+    <text x="228" y="35" fill="#075985" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="22" font-weight="700">신청 기간</text>
+    <rect x="408" width="160" height="52" rx="12" fill="#fef3c7"/>
+    <text x="432" y="35" fill="#92400e" font-family="Arial, 'Noto Sans KR', sans-serif" font-size="22" font-weight="700">마감 임박</text>
+  </g>
+  <g transform="translate(782 222)">
+    <rect width="274" height="214" rx="18" fill="#f8fafc" stroke="#dbe3ea" stroke-width="2"/>
+    <g fill="#cbd5e1">
+      <rect x="24" y="28" width="32" height="28" rx="6"/>
+      <rect x="66" y="28" width="32" height="28" rx="6"/>
+      <rect x="108" y="28" width="32" height="28" rx="6"/>
+      <rect x="150" y="28" width="32" height="28" rx="6"/>
+      <rect x="192" y="28" width="32" height="28" rx="6"/>
+      <rect x="24" y="68" width="32" height="28" rx="6"/>
+      <rect x="66" y="68" width="32" height="28" rx="6"/>
+      <rect x="108" y="68" width="32" height="28" rx="6"/>
+      <rect x="150" y="68" width="32" height="28" rx="6"/>
+      <rect x="192" y="68" width="32" height="28" rx="6"/>
+      <rect x="24" y="108" width="32" height="28" rx="6"/>
+      <rect x="66" y="108" width="32" height="28" rx="6"/>
+      <rect x="108" y="108" width="32" height="28" rx="6"/>
+      <rect x="150" y="108" width="32" height="28" rx="6"/>
+      <rect x="192" y="108" width="32" height="28" rx="6"/>
+      <rect x="24" y="148" width="32" height="28" rx="6"/>
+      <rect x="66" y="148" width="32" height="28" rx="6"/>
+      <rect x="108" y="148" width="32" height="28" rx="6"/>
+      <rect x="150" y="148" width="32" height="28" rx="6"/>
+      <rect x="192" y="148" width="32" height="28" rx="6"/>
+    </g>
+    <rect x="36" y="75" width="156" height="24" rx="8" fill="#16a34a"/>
+    <rect x="80" y="116" width="132" height="24" rx="8" fill="#0284c7"/>
+    <rect x="54" y="156" width="176" height="24" rx="8" fill="#d97706"/>
+  </g>
+</svg>
