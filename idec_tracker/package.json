@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "react-router dev --host 0.0.0.0",
-    "build": "tsc -b && react-router build",
+    "build": "tsc -b && react-router build && node scripts/prepare-pages-build.mjs",
     "preview": "vite preview --host 0.0.0.0 --outDir build/client",
     "verify:ui": "node scripts/verify-ui.mjs"
   },
