@@ -149,6 +149,12 @@ IDEC_CUTOFF_DATE=none uv run python main.py
 
 허용되는 비활성화 값은 `none`, `null`, `false`, `0`, 빈 문자열입니다.
 
+네트워크가 느린 환경에서는 요청 타임아웃을 조정할 수 있습니다.
+
+```bash
+IDEC_CONNECT_TIMEOUT_SEC=30 IDEC_READ_TIMEOUT_SEC=60 uv run python main.py
+```
+
 ## ID 생성 규칙
 
 강의 ID는 다음 값을 이어 붙인 뒤 SHA-1 해시 앞 12자리를 사용해 생성합니다.

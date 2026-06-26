@@ -22,7 +22,8 @@ BASE_URL = "https://www.idec.or.kr"
 DEFAULT_CUTOFF_DATE = date(2026, 1, 1)
 REQUEST_DELAY_SEC = 0.5
 DETAIL_REQUEST_DELAY_SEC = 0.2
-REQUEST_TIMEOUT_SEC = 20
+REQUEST_CONNECT_TIMEOUT_SEC = int(os.environ.get("IDEC_CONNECT_TIMEOUT_SEC", "30"))
+REQUEST_READ_TIMEOUT_SEC = int(os.environ.get("IDEC_READ_TIMEOUT_SEC", "60"))
 
 SOURCES = [
     {
@@ -165,7 +166,7 @@ def make_session() -> requests.Session:
 
 
 def fetch_html(session: requests.Session, url: str) -> str:
-    response = session.get(url, timeout=REQUEST_TIMEOUT_SEC)
+    response = session.get(url, timeout=(REQUEST_CONNECT_TIMEOUT_SEC, REQUEST_READ_TIMEOUT_SEC))
     response.raise_for_status()
 
     if not response.encoding or response.encoding.lower() in {"iso-8859-1", "ascii"}:

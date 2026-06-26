@@ -55,7 +55,21 @@ jobs:
 
       - name: Generate lecture data
         working-directory: idec_crawler
-        run: uv run python main.py
+        shell: bash
+        run: |
+          for attempt in 1 2 3; do
+            if uv run python main.py; then
+              exit 0
+            fi
+
+            if [[ "$attempt" -lt 3 ]]; then
+              sleep_seconds=$((attempt * 120))
+              echo "Crawler failed on attempt ${attempt}. Retrying in ${sleep_seconds}s..."
+              sleep "$sleep_seconds"
+            fi
+          done
+
+          exit 1
 
       - name: Set up Node
         uses: actions/setup-node@v4
