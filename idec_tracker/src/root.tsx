@@ -19,6 +19,7 @@ function assetUrl(fileName: string) {
 
 export function Layout({ children }: { children: React.ReactNode }) {
   const ogImageUrl = assetUrl("og-image.png");
+  const faviconUrl = assetUrl("favicon.svg");
 
   return (
     <html lang="ko">
@@ -26,6 +27,7 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta charSet="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>{siteTitle}</title>
+        <link rel="icon" type="image/svg+xml" href={faviconUrl} />
         <meta name="description" content={siteDescription} />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content="ko_KR" />

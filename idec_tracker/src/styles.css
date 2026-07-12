@@ -63,12 +63,27 @@ a {
 .brand-mark {
   width: 42px;
   height: 42px;
+  flex: 0 0 42px;
   display: grid;
   place-items: center;
   border-radius: 999px;
   color: #145cff;
   background: #eef4ff;
   border: 2px solid #145cff;
+}
+
+.brand-copy {
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.brand-title-row {
+  display: flex;
+  align-items: baseline;
+  gap: 24px;
+  flex-wrap: wrap;
 }
 
 .brand h1 {
@@ -79,9 +94,17 @@ a {
 }
 
 .brand p {
-  margin: 0 0 0 24px;
+  margin: 0;
   color: #4b5563;
   font-weight: 600;
+}
+
+.updated-at {
+  color: #64748b;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
 }
 
 .search-box {
@@ -619,16 +642,17 @@ a {
   }
 
   .brand {
-    flex-wrap: wrap;
+    align-items: flex-start;
   }
 
-  .brand p {
-    margin-left: 0;
+  .brand-title-row {
+    gap: 8px 14px;
   }
 
   .top-actions {
     width: 100%;
     flex-wrap: wrap;
+    justify-content: space-between;
   }
 
   .dashboard,

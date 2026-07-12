@@ -97,6 +97,27 @@ function formatDate(date: Date): string {
   return `${year}-${month}-${day}`;
 }
 
+function formatUpdatedAt(value: string | null | undefined): string {
+  if (!value) {
+    return "업데이트 정보 없음";
+  }
+
+  const date = new Date(value);
+  if (Number.isNaN(date.getTime())) {
+    return "업데이트 정보 없음";
+  }
+
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false,
+  }).format(date);
+}
+
 function addDays(date: Date, days: number): Date {
   const next = new Date(date);
   next.setDate(next.getDate() + days);
@@ -410,6 +431,7 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
   }, [initialPayload]);
 
   const referenceDate = useMemo(() => getReferenceDate(payload), [payload]);
+  const updatedAtText = useMemo(() => formatUpdatedAt(payload?.generatedAt), [payload?.generatedAt]);
   const lectures = payload?.lectures ?? [];
 
   const campuses = useMemo(() => {
@@ -501,10 +523,14 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
           <span className="brand-mark">
             <LocateFixed size={24} />
           </span>
-          <h1>IDEC 캘린더</h1>
-          <p>강의 기간 충돌을 먼저 확인하세요</p>
+          <div className="brand-copy">
+            <div className="brand-title-row">
+              <h1>IDEC 캘린더</h1>
+            </div>
+          </div>
         </div>
         <div className="top-actions">
+          <span className="updated-at">업데이트: {updatedAtText}</span>
           <div className="search-box">
             <Search size={17} />
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="강의명 검색" />
