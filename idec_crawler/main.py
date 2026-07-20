@@ -22,8 +22,8 @@ BASE_URL = "https://www.idec.or.kr"
 DEFAULT_CUTOFF_DATE = date(2026, 1, 1)
 REQUEST_DELAY_SEC = 0.5
 DETAIL_REQUEST_DELAY_SEC = 0.2
-REQUEST_CONNECT_TIMEOUT_SEC = int(os.environ.get("IDEC_CONNECT_TIMEOUT_SEC", "30"))
-REQUEST_READ_TIMEOUT_SEC = int(os.environ.get("IDEC_READ_TIMEOUT_SEC", "60"))
+REQUEST_CONNECT_TIMEOUT_SEC = int(os.environ.get("IDEC_CONNECT_TIMEOUT_SEC", "5"))
+REQUEST_READ_TIMEOUT_SEC = int(os.environ.get("IDEC_READ_TIMEOUT_SEC", "15"))
 
 SOURCES = [
     {
@@ -151,10 +151,10 @@ def make_session() -> requests.Session:
     )
 
     retry = Retry(
-        total=3,
-        connect=3,
-        read=3,
-        status=3,
+        total=2,
+        connect=2,
+        read=2,
+        status=2,
         backoff_factor=0.5,
         status_forcelist=(429, 500, 502, 503, 504),
         allowed_methods=("GET",),

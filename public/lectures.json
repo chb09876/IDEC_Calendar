@@ -1,8 +1,203 @@
 {
-  "generatedAt": "2026-06-25T16:51:52+09:00",
+  "generatedAt": "2026-07-20T13:20:41+09:00",
   "sourceSite": "https://www.idec.or.kr",
-  "count": 200,
+  "count": 240,
   "lectures": [
+    {
+      "id": "idec-a2b6e10f6f62",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "광운대",
+      "format": "혼합",
+      "title": "임베디드 메모리(SRAM) 기초",
+      "lectureStartDate": "2025-08-21",
+      "lectureEndDate": "2025-08-22",
+      "applicationStartDate": "2025-08-04",
+      "applicationEndDate": "2025-08-10",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2025-08-04",
+          "endDate": "2025-08-10",
+          "startDateTime": "2025-08-04 00:00",
+          "endDateTime": "2025-08-10 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-08-11",
+          "endDate": "2025-08-19",
+          "startDateTime": "2025-08-11 00:00",
+          "endDateTime": "2025-08-19 23:59"
+        }
+      ],
+      "instructors": [
+        "정한울 부교수/CEO 연세대학교/아티크론"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2352",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-b41dab479ed7",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "경북대-아카데미",
+      "format": "대면",
+      "title": "FPGA기반 하드웨어 설계 및 소프트웨어 인터페이스",
+      "lectureStartDate": "2025-08-25",
+      "lectureEndDate": "2025-08-26",
+      "applicationStartDate": "2025-07-28",
+      "applicationEndDate": "2025-08-03",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2025-07-28",
+          "endDate": "2025-08-03",
+          "startDateTime": "2025-07-28 00:00",
+          "endDateTime": "2025-08-03 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-08-04",
+          "endDate": "2025-08-20",
+          "startDateTime": "2025-08-04 00:00",
+          "endDateTime": "2025-08-20 23:59"
+        }
+      ],
+      "instructors": [
+        "공준호 부교수 경북대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2386",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-e3ea7a5b13ff",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "광운대-아카데미",
+      "format": "혼합",
+      "title": "첨단 반도체 재료 및 소자 설계",
+      "lectureStartDate": "2025-08-25",
+      "lectureEndDate": "2025-08-26",
+      "applicationStartDate": "2025-08-07",
+      "applicationEndDate": "2025-08-13",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2025-08-07",
+          "endDate": "2025-08-13",
+          "startDateTime": "2025-08-07 00:00",
+          "endDateTime": "2025-08-13 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-08-14",
+          "endDate": "2025-08-21",
+          "startDateTime": "2025-08-14 00:00",
+          "endDateTime": "2025-08-21 23:59"
+        }
+      ],
+      "instructors": [
+        "하태준 부교수 광운대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2391",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-094e619d4cb0",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "충북대",
+      "format": "대면",
+      "title": "Verilog HDL 이론 및 Intel FPGA실습",
+      "lectureStartDate": "2025-08-25",
+      "lectureEndDate": "2025-08-27",
+      "applicationStartDate": "2025-07-23",
+      "applicationEndDate": "2025-07-29",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2025-07-23",
+          "endDate": "2025-07-29",
+          "startDateTime": "2025-07-23 00:00",
+          "endDateTime": "2025-07-29 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-07-30",
+          "endDate": "2025-08-20",
+          "startDateTime": "2025-07-30 00:00",
+          "endDateTime": "2025-08-20 23:59"
+        }
+      ],
+      "instructors": [
+        "유호영 교수 충남대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2384",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-c706c52dabce",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "충북대",
+      "format": "대면",
+      "title": "Xilinx FPGA를 활용한 디지털 시스템 설계",
+      "lectureStartDate": "2025-08-25",
+      "lectureEndDate": "2025-08-27",
+      "applicationStartDate": "2025-07-23",
+      "applicationEndDate": "2025-07-29",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2025-07-23",
+          "endDate": "2025-07-29",
+          "startDateTime": "2025-07-23 00:00",
+          "endDateTime": "2025-07-29 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-07-30",
+          "endDate": "2025-08-20",
+          "startDateTime": "2025-07-30 00:00",
+          "endDateTime": "2025-08-20 23:59"
+        }
+      ],
+      "instructors": [
+        "김수창 조교수 충북대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2385",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
     {
       "id": "idec-47f8bf36a90b",
       "track": "worker_priority",
@@ -29,10 +224,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2390",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2390",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c935d55abbff",
@@ -68,10 +263,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2365",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2365",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fffa7a64d52c",
@@ -107,10 +302,49 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2388",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2388",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-6a2fe2b81d0f",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "본센터-아카데미",
+      "format": "혼합",
+      "title": "MATLAB 기초, 머신러닝, PdM 워크샵",
+      "lectureStartDate": "2025-08-26",
+      "lectureEndDate": "2025-08-27",
+      "applicationStartDate": "2025-07-01",
+      "applicationEndDate": "2025-07-07",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2025-07-01",
+          "endDate": "2025-07-07",
+          "startDateTime": "2025-07-01 00:00",
+          "endDateTime": "2025-07-07 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-07-08",
+          "endDate": "2025-08-19",
+          "startDateTime": "2025-07-08 00:00",
+          "endDateTime": "2025-08-19 23:59"
+        }
+      ],
+      "instructors": [
+        "장규환 부장 매스웍스코리아"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2347",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4c7552029c54",
@@ -146,10 +380,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2364",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2364",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fa00eb0ee4fe",
@@ -185,10 +419,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2387",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2387",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a331ae38035a",
@@ -224,10 +458,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2302",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2302",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-db5d51bf51d1",
@@ -255,10 +489,49 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2372",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2372",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-f1905379ffd0",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "본센터-아카데미",
+      "format": "온라인",
+      "title": "MATLAB 알고리즘으로부터 C/C++ 및 GPU CUDA코드 자동 생성 따라하기",
+      "lectureStartDate": "2025-08-28",
+      "lectureEndDate": "2025-08-29",
+      "applicationStartDate": "2025-07-14",
+      "applicationEndDate": "2025-07-20",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2025-07-14",
+          "endDate": "2025-07-20",
+          "startDateTime": "2025-07-14 00:00",
+          "endDateTime": "2025-07-20 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2025-07-21",
+          "endDate": "2025-08-20",
+          "startDateTime": "2025-07-21 00:00",
+          "endDateTime": "2025-08-20 23:59"
+        }
+      ],
+      "instructors": [
+        "신행재 부장 매스웍스코리아"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2348",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c094201b5c30",
@@ -294,10 +567,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2399",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2399",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4c6d6890bee2",
@@ -333,10 +606,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2394",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2394",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5dc54f630d6d",
@@ -372,10 +645,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2401",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2401",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-806445e82dcb",
@@ -411,10 +684,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2303",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2303",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6522613677f7",
@@ -450,10 +723,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2395",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2395",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6e93059e7807",
@@ -489,10 +762,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2400",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2400",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f78e3b942135",
@@ -528,10 +801,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2396",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2396",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-af9730d658a0",
@@ -567,10 +840,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2402",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2402",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a92d3a53b4bd",
@@ -606,10 +879,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2398",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2398",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c7615503d096",
@@ -645,10 +918,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2403",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2403",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-266249cde834",
@@ -684,10 +957,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2406",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2406",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a09cd6c330d4",
@@ -723,10 +996,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2410",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2410",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2ec15d24d01d",
@@ -754,10 +1027,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2407",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2407",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4fe5f9b26115",
@@ -793,10 +1066,10 @@
       ],
       "status": "폐강",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2408",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2408",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-dfbc2880f2ac",
@@ -824,10 +1097,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2404",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2404",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-dcefd3ede18c",
@@ -863,10 +1136,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2411",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2411",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f33c9d50fb5f",
@@ -894,10 +1167,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2418",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2418",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-23490767c66b",
@@ -933,10 +1206,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2415",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2415",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3ace0a26e781",
@@ -972,10 +1245,10 @@
       ],
       "status": "폐강",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2409",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2409",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-33596f894e33",
@@ -1011,10 +1284,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2412",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2412",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-b820f0e6df1b",
@@ -1050,10 +1323,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2405",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2405",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-cc653888fd3b",
@@ -1089,10 +1362,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2416",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=lst2&no=2416",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=5&type=lst2",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5f4ad8967b75",
@@ -1128,10 +1401,10 @@
       ],
       "status": "폐강",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2421",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2421",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fadf557f6cbc",
@@ -1170,7 +1443,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2413",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2c22de1a76cb",
@@ -1209,7 +1482,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2419",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-1db63622a089",
@@ -1245,10 +1518,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2420",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2420",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-ebc00a0ee547",
@@ -1287,7 +1560,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2414",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2e64e2fa66a8",
@@ -1323,10 +1596,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2417",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2417",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a713827446a4",
@@ -1365,7 +1638,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2422",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2b233fb4d6f6",
@@ -1401,10 +1674,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2428",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2428",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6a0c7af822cc",
@@ -1440,10 +1713,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2423",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2423",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8e74d46b89c9",
@@ -1479,10 +1752,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2424",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
-      "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=7&type=list&no=2424",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=7&type=list",
+      "sourcePage": 7,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0a188e5e72aa",
@@ -1518,10 +1791,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2431",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2431",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c3068ffea3b0",
@@ -1552,7 +1825,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2429",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
       "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2a80cfcf28ca",
@@ -1591,7 +1864,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2434",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
       "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fb2e0b993d02",
@@ -1630,7 +1903,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2427",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
       "sourcePage": 6,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e5917b3a8b29",
@@ -1658,10 +1931,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2430",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2430",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-39912e746b26",
@@ -1697,10 +1970,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2435",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2435",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-ab27eb6bf209",
@@ -1736,10 +2009,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2436",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2436",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-778cdbddc637",
@@ -1775,10 +2048,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2425",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2425",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-be25c98ad921",
@@ -1814,10 +2087,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2438",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2438",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-ca4a7a121a6d",
@@ -1853,10 +2126,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2437",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2437",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e595e0b320b4",
@@ -1884,10 +2157,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2441",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2441",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-bb8cb0c703ab",
@@ -1923,10 +2196,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2444",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2444",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-379be4c54dd3",
@@ -1962,10 +2235,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2442",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2442",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3aa12381576e",
@@ -1993,10 +2266,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2452",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2452",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f0e5eb99ca69",
@@ -2032,10 +2305,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2433",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2433",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8790632fc6b1",
@@ -2071,10 +2344,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2457",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2457",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-691b6abc6b2b",
@@ -2102,10 +2375,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2464",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2464",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c4d013b3ceda",
@@ -2141,10 +2414,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2454",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2454",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-535ad8fd5317",
@@ -2172,10 +2445,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2443",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2443",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-41e596922b2d",
@@ -2203,10 +2476,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2455",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2455",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-80902e81ec96",
@@ -2242,10 +2515,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2445",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2445",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-eea1582b6b3b",
@@ -2281,10 +2554,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2453",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2453",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6d838ecaccae",
@@ -2315,7 +2588,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2473",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
       "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6c013ab69d9b",
@@ -2351,10 +2624,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2460",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2460",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d5fb56ec8d9d",
@@ -2393,7 +2666,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2462",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
       "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a0d0c1d4557e",
@@ -2432,7 +2705,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2439",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
       "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-b65765f87b86",
@@ -2469,10 +2742,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2440",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
-      "sourcePage": 5,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=6&type=list&no=2440",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=6&type=list",
+      "sourcePage": 6,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-12f710eaf575",
@@ -2508,10 +2781,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2432",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2432",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7ed89a031b08",
@@ -2547,10 +2820,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2446",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2446",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-91c510549a9e",
@@ -2586,10 +2859,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2479",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2479",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3955f8b81174",
@@ -2625,10 +2898,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2465",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2465",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-020636d18c97",
@@ -2664,10 +2937,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2459",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2459",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-515644000847",
@@ -2703,10 +2976,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2448",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2448",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d039572b1ece",
@@ -2734,10 +3007,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2469",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2469",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-32b3596230b8",
@@ -2773,10 +3046,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2463",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2463",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f131f8d2ccf9",
@@ -2812,10 +3085,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2456",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2456",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f44f3a0910ac",
@@ -2851,10 +3124,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2470",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2470",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-dd03f359be34",
@@ -2890,10 +3163,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2458",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2458",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5ec9d7d486b6",
@@ -2929,10 +3202,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2450",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2450",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5d18bc842704",
@@ -2968,10 +3241,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2474",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2474",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-36d2cc4d2c81",
@@ -2999,10 +3272,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2488",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2488",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-ae65da9f2358",
@@ -3030,10 +3303,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2468",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2468",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a2c2aed70755",
@@ -3069,10 +3342,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2471",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2471",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3781580b4bea",
@@ -3100,10 +3373,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2461",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2461",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-16f823d24971",
@@ -3131,10 +3404,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2472",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
-      "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=5&type=list&no=2472",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=5&type=list",
+      "sourcePage": 5,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0dd19570bb0b",
@@ -3173,7 +3446,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2485",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-650031131a35",
@@ -3212,7 +3485,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2476",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-cfbfad0e307c",
@@ -3248,10 +3521,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2451",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2451",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-052d49c47b46",
@@ -3290,7 +3563,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2486",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
       "sourcePage": 4,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-898c4ddde568",
@@ -3326,10 +3599,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2480",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2480",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a3815ee2791e",
@@ -3365,10 +3638,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2481",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2481",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-657e09574ae8",
@@ -3404,10 +3677,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2483",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2483",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-9b56ff803884",
@@ -3443,10 +3716,10 @@
       ],
       "status": "폐강",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2466",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2466",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2235e0699cc1",
@@ -3482,10 +3755,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2449",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2449",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e2440e0a872b",
@@ -3521,10 +3794,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2482",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2482",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f39f8029c5da",
@@ -3560,10 +3833,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2487",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2487",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e0244bc82429",
@@ -3599,10 +3872,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2477",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2477",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3ec39a17d9c2",
@@ -3638,10 +3911,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2484",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2484",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-cf8911677c27",
@@ -3677,10 +3950,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2490",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2490",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3883b1239c03",
@@ -3716,10 +3989,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2491",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2491",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-aac4536d1ca4",
@@ -3755,10 +4028,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2467",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2467",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-9bc6800c7418",
@@ -3794,10 +4067,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2489",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2489",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7003c04b7f52",
@@ -3833,10 +4106,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2492",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2492",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c900c0c5646f",
@@ -3872,10 +4145,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2494",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2494",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4c31ff699b6b",
@@ -3911,10 +4184,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2493",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2493",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-26eb9d9c4a5f",
@@ -3950,10 +4223,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2475",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2475",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3343f926a14f",
@@ -3989,10 +4262,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2503",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2503",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3024affe47e9",
@@ -4028,10 +4301,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2495",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2495",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fc94d004b6ff",
@@ -4067,10 +4340,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2500",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2500",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a28ec64c305a",
@@ -4106,10 +4379,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2497",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=lst2&no=2497",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=4&type=lst2",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-16f931488033",
@@ -4145,10 +4418,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2496",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2496",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a370b97a6b96",
@@ -4184,10 +4457,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2498",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2498",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-36265f38a538",
@@ -4215,10 +4488,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2501",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2501",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-108100b6766b",
@@ -4257,7 +4530,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2499",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d20374e7bf84",
@@ -4293,10 +4566,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2504",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
-      "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=4&type=list&no=2504",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=4&type=list",
+      "sourcePage": 4,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5806556d5148",
@@ -4335,7 +4608,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2507",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8e73c9ef30a7",
@@ -4374,7 +4647,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2502",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-da381b3fee72",
@@ -4413,7 +4686,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2508",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-62342073c00c",
@@ -4452,7 +4725,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2505",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-833ac14bd1c2",
@@ -4491,7 +4764,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2510",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a7422a4918eb",
@@ -4530,7 +4803,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2506",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
       "sourcePage": 3,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e34eb21c89be",
@@ -4566,10 +4839,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2509",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2509",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a5f6b284ff12",
@@ -4605,10 +4878,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2511",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2511",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f69ee1c5615a",
@@ -4644,10 +4917,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2512",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2512",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2f63a0be896f",
@@ -4683,10 +4956,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2513",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2513",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0887e62a0cdc",
@@ -4722,10 +4995,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2527",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2527",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e7162750d3e3",
@@ -4753,10 +5026,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2540",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2540",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-743202df83c6",
@@ -4792,10 +5065,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2528",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2528",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fe8ad6c731da",
@@ -4831,10 +5104,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2533",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2533",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-958dec3e8128",
@@ -4862,10 +5135,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2536",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2536",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e8ce1365712b",
@@ -4901,10 +5174,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2530",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2530",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0e3b3d98338f",
@@ -4940,10 +5213,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2546",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2546",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a201d627102d",
@@ -4971,10 +5244,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2537",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2537",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-2c61e8d4d5a3",
@@ -5002,10 +5275,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2514",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2514",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e03b5980a83f",
@@ -5041,10 +5314,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2524",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2524",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-38a9e562cdf4",
@@ -5080,10 +5353,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2535",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2535",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d81cc9d18960",
@@ -5119,10 +5392,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2539",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2539",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c4e4b0ffbb10",
@@ -5158,10 +5431,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2544",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2544",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c22a46ec8c49",
@@ -5197,10 +5470,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2541",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2541",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-ac84c210db8c",
@@ -5236,10 +5509,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2542",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2542",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e599d0eb4933",
@@ -5275,10 +5548,10 @@
       ],
       "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2525",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2525",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f7dd1df8482e",
@@ -5312,12 +5585,12 @@
       "instructors": [
         "이형민 부교수 고려대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2515",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2515",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6e8e2bb43ab4",
@@ -5351,12 +5624,12 @@
       "instructors": [
         "임재명 부교수 한양대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2568",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2568",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f4694ba1db57",
@@ -5382,12 +5655,12 @@
       "instructors": [
         "공영호 부교수 숭실대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2572",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2572",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c5210e231d84",
@@ -5413,12 +5686,12 @@
       "instructors": [
         "장두진 조교수 청주대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2560",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2560",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-9f7ccc8fae0e",
@@ -5452,12 +5725,12 @@
       "instructors": [
         "정용운 조교수 세종대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2543",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2543",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fbad6909ce1d",
@@ -5489,14 +5762,14 @@
         }
       ],
       "instructors": [
-        "윤상덕 팀장 팩토스퀘어"
+        "윤상덕 없음 블루닷"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2526",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2526",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-746ced7321ac",
@@ -5530,12 +5803,12 @@
       "instructors": [
         "이승직 과장 아나로그디바이스"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2552",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=lst2&no=2552",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=3&type=lst2",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fd4161eb1de6",
@@ -5561,20 +5834,20 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-15",
-          "endDate": "2026-06-25",
+          "endDate": "2026-06-30",
           "startDateTime": "2026-06-15 00:00",
-          "endDateTime": "2026-06-25 23:59"
+          "endDateTime": "2026-06-30 23:59"
         }
       ],
       "instructors": [
         "김연화 책임연구원 나인플러스IT"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2559",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-823fc8469a99",
@@ -5600,20 +5873,20 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-29",
-          "endDate": "2026-06-28",
+          "endDate": "2026-07-02",
           "startDateTime": "2026-06-29 00:00",
-          "endDateTime": "2026-06-28 23:59"
+          "endDateTime": "2026-07-02 23:59"
         }
       ],
       "instructors": [
         "정이품 조교수 연세대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2516",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-10ebbac42bdf",
@@ -5647,12 +5920,12 @@
       "instructors": [
         "박희천 조교수 UNIST"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2558",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2558",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a9ab24e92b6f",
@@ -5686,12 +5959,12 @@
       "instructors": [
         "김철 부교수 KAIST"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2553",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2553",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0c33ec90f557",
@@ -5725,12 +5998,12 @@
       "instructors": [
         "한건희 교수 연세대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2589",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2589",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-28a160bbd0a7",
@@ -5756,27 +6029,27 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-11",
-          "endDate": "2026-06-30",
+          "endDate": "2026-07-03",
           "startDateTime": "2026-06-11 00:00",
-          "endDateTime": "2026-06-30 23:59"
+          "endDateTime": "2026-07-03 23:59"
         }
       ],
       "instructors": [
         "김동균 상무 SK hynix"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2545",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2545",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-6f115bac0209",
       "track": "graduate_priority",
       "trackName": "석박사과정 우선 교육",
       "campus": "광운대",
-      "format": "혼합",
+      "format": "온라인",
       "title": "하드웨어에 대한 위협과 대응방안",
       "lectureStartDate": "2026-07-07",
       "lectureEndDate": "2026-07-09",
@@ -5795,12 +6068,12 @@
       "instructors": [
         "이중희 교수 고려대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2571",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2571",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-b1da2fa76dda",
@@ -5834,12 +6107,12 @@
       "instructors": [
         "정원석 이사 (주)이엠시스"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2531",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2531",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-19fae7aec350",
@@ -5873,20 +6146,20 @@
       "instructors": [
         "창동진 조교수 충남대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2583",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2583",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
-      "id": "idec-b411836f7c3c",
+      "id": "idec-c663b0a0b682",
       "track": "graduate_priority",
       "trackName": "석박사과정 우선 교육",
       "campus": "한양대",
       "format": "대면",
-      "title": "반도체 고장분석 및 신뢰성평가",
+      "title": "반도체 고장 이슈 및 신뢰성 평가",
       "lectureStartDate": "2026-07-08",
       "lectureEndDate": "2026-07-10",
       "applicationStartDate": "2026-06-15",
@@ -5904,12 +6177,12 @@
       "instructors": [
         "마병진 수석연구원 한국전자기술연구원"
       ],
-      "status": "정원초과",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2557",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2557",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c82b0f3e002a",
@@ -5943,12 +6216,12 @@
       "instructors": [
         "문병인 교수 경북대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2554",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2554",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e24562012212",
@@ -5982,12 +6255,12 @@
       "instructors": [
         "신효근 조교수 경북대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2581",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
-      "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=3&type=list&no=2581",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=3&type=list",
+      "sourcePage": 3,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4ba803e1f1b4",
@@ -6021,12 +6294,12 @@
       "instructors": [
         "오동렬 조교수 제주대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2582",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-3165e01dda49",
@@ -6060,12 +6333,51 @@
       "instructors": [
         "강형주 교수 한국기술교육대학교"
       ],
-      "status": "신청중",
+      "status": "폐강",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2561",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-dd2c05a45744",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "광운대-아카데미",
+      "format": "혼합",
+      "title": "Verilog HDL을 이용한 디지털회로 설계",
+      "lectureStartDate": "2026-07-13",
+      "lectureEndDate": "2026-07-15",
+      "applicationStartDate": "2026-06-26",
+      "applicationEndDate": "2026-07-02",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-06-26",
+          "endDate": "2026-07-02",
+          "startDateTime": "2026-06-26 00:00",
+          "endDateTime": "2026-07-02 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-03",
+          "endDate": "2026-07-09",
+          "startDateTime": "2026-07-03 00:00",
+          "endDateTime": "2026-07-09 23:59"
+        }
+      ],
+      "instructors": [
+        "이준환 교수 광운대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2598",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d73eb7b822b2",
@@ -6099,12 +6411,12 @@
       "instructors": [
         "김민석 이사 피코트로닉스"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2538",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2538",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f247e76bfb83",
@@ -6116,26 +6428,26 @@
       "lectureStartDate": "2026-07-13",
       "lectureEndDate": "2026-07-15",
       "applicationStartDate": "2026-06-17",
-      "applicationEndDate": "2026-07-08",
+      "applicationEndDate": "2026-07-09",
       "applicationPeriods": [
         {
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-17",
-          "endDate": "2026-07-08",
+          "endDate": "2026-07-09",
           "startDateTime": "2026-06-17 00:00",
-          "endDateTime": "2026-07-08 23:59"
+          "endDateTime": "2026-07-09 23:59"
         }
       ],
       "instructors": [
         "김종석 조교수 한양대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2580",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2580",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8af108ebc37d",
@@ -6146,33 +6458,27 @@
       "title": "반도체박막공정",
       "lectureStartDate": "2026-07-14",
       "lectureEndDate": "2026-07-16",
-      "applicationStartDate": "2026-06-10",
-      "applicationEndDate": "2026-06-16",
+      "applicationStartDate": "2026-07-07",
+      "applicationEndDate": "2026-07-08",
       "applicationPeriods": [
-        {
-          "type": "graduate_priority",
-          "label": "석·박사 우선",
-          "startDate": "2026-06-10",
-          "endDate": "2026-06-16",
-          "startDateTime": "2026-06-10 00:00",
-          "endDateTime": "2026-06-16 23:59"
-        },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-06-17",
-          "endDate": "2026-07-09",
-          "startDateTime": "2026-06-17 00:00",
-          "endDateTime": "2026-07-09 23:59"
+          "startDate": "2026-07-07",
+          "endDate": "2026-07-08",
+          "startDateTime": "2026-07-07 00:00",
+          "endDateTime": "2026-07-08 23:59"
         }
       ],
-      "instructors": [],
-      "status": "정원초과",
+      "instructors": [
+        "이상진 부교수 충북대학교"
+      ],
+      "status": "마감",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2562",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-0965d90d37ff",
@@ -6206,12 +6512,51 @@
       "instructors": [
         "최영홍 대리 케이던스 디자인 시스템즈"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2569",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2569",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-c34395dc7aa7",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "경북대-아카데미",
+      "format": "대면",
+      "title": "RF 송수신 시스템 및 핵심 부품의 이해",
+      "lectureStartDate": "2026-07-15",
+      "lectureEndDate": "2026-07-16",
+      "applicationStartDate": "2026-07-07",
+      "applicationEndDate": "2026-07-13",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-07",
+          "endDate": "2026-07-13",
+          "startDateTime": "2026-07-07 00:00",
+          "endDateTime": "2026-07-13 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-14",
+          "endDate": "2026-07-07",
+          "startDateTime": "2026-07-14 00:00",
+          "endDateTime": "2026-07-07 23:59"
+        }
+      ],
+      "instructors": [
+        "박세훈 조교수 경북대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2612",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-35c2f095512f",
@@ -6245,12 +6590,12 @@
       "instructors": [
         "김태석 교수 광운대학교"
       ],
-      "status": "준비중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2573",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2573",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-b0fb7f46c73c",
@@ -6284,12 +6629,12 @@
       "instructors": [
         "심민섭 조교수 경상국립대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2585",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2585",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a7e444bc73bb",
@@ -6301,34 +6646,26 @@
       "lectureStartDate": "2026-07-16",
       "lectureEndDate": "2026-07-17",
       "applicationStartDate": "2026-06-27",
-      "applicationEndDate": "2026-07-03",
+      "applicationEndDate": "2026-07-13",
       "applicationPeriods": [
-        {
-          "type": "graduate_priority",
-          "label": "석·박사 우선",
-          "startDate": "2026-06-27",
-          "endDate": "2026-07-03",
-          "startDateTime": "2026-06-27 00:00",
-          "endDateTime": "2026-07-03 23:59"
-        },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-07-04",
+          "startDate": "2026-06-27",
           "endDate": "2026-07-13",
-          "startDateTime": "2026-07-04 00:00",
+          "startDateTime": "2026-06-27 00:00",
           "endDateTime": "2026-07-13 23:59"
         }
       ],
       "instructors": [
         "KO JAMES JINSOO 고진수 본부장 Cohu"
       ],
-      "status": "준비중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2594",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2594",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-bf32a483dbf9",
@@ -6362,12 +6699,12 @@
       "instructors": [
         "한만수 교수 목포대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2548",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2548",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-a35b7d22cdf5",
@@ -6379,34 +6716,26 @@
       "lectureStartDate": "2026-07-20",
       "lectureEndDate": "2026-07-21",
       "applicationStartDate": "2026-06-28",
-      "applicationEndDate": "2026-07-04",
+      "applicationEndDate": "2026-07-16",
       "applicationPeriods": [
-        {
-          "type": "graduate_priority",
-          "label": "석·박사 우선",
-          "startDate": "2026-06-28",
-          "endDate": "2026-07-04",
-          "startDateTime": "2026-06-28 00:00",
-          "endDateTime": "2026-07-04 23:59"
-        },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-07-05",
+          "startDate": "2026-06-28",
           "endDate": "2026-07-16",
-          "startDateTime": "2026-07-05 00:00",
+          "startDateTime": "2026-06-28 00:00",
           "endDateTime": "2026-07-16 23:59"
         }
       ],
       "instructors": [
         "김병호 교수 한양대학교"
       ],
-      "status": "준비중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2555",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2555",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c9169e9ef8a5",
@@ -6417,42 +6746,42 @@
       "title": "인공지능 가속기와 경량화 기법 기초",
       "lectureStartDate": "2026-07-20",
       "lectureEndDate": "2026-07-21",
-      "applicationStartDate": "2026-06-22",
-      "applicationEndDate": "2026-06-28",
+      "applicationStartDate": "2026-07-06",
+      "applicationEndDate": "2026-07-12",
       "applicationPeriods": [
         {
           "type": "worker_priority",
           "label": "재직자 우선",
-          "startDate": "2026-06-22",
-          "endDate": "2026-06-28",
-          "startDateTime": "2026-06-22 00:00",
-          "endDateTime": "2026-06-28 23:59"
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-12",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-12 23:59"
         },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-06-29",
-          "endDate": "2026-06-28",
-          "startDateTime": "2026-06-29 00:00",
-          "endDateTime": "2026-06-28 23:59"
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-16",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-16 23:59"
         }
       ],
       "instructors": [
         "박천준 조교수 한국외국어대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2517",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8f20b8a3a8d9",
       "track": "worker_priority",
       "trackName": "재직자 우선 교육",
       "campus": "금오공대-아카데미",
-      "format": "대면",
+      "format": "온라인",
       "title": "Power Converter Design(Inverter 및 DC-DC Converter System)",
       "lectureStartDate": "2026-07-20",
       "lectureEndDate": "2026-07-21",
@@ -6471,20 +6800,20 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-30",
-          "endDate": "2026-07-13",
+          "endDate": "2026-07-15",
           "startDateTime": "2026-06-30 00:00",
-          "endDateTime": "2026-07-13 23:59"
+          "endDateTime": "2026-07-15 23:59"
         }
       ],
       "instructors": [
         "최현준 조교수 금오공과대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2593",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2593",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-b9d9b57c027d",
@@ -6518,12 +6847,12 @@
       "instructors": [
         "이옥구 교수 부산대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2592",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2592",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-c84dab9b81e5",
@@ -6557,20 +6886,20 @@
       "instructors": [
         "최승규 조교수 연세대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2595",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2595",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
-      "id": "idec-d422d0379ed8",
+      "id": "idec-656c532984a6",
       "track": "graduate_priority",
       "trackName": "석박사과정 우선 교육",
       "campus": "충북대",
       "format": "혼합",
-      "title": "아날로그 회로를 위한 Building block 기초 이론 및 실습(번역프로그램 실행 외국인 수강방법 안내-참고사항 확인)",
+      "title": "아날로그 회로를 위한 Building block 기초 이론 및 실습",
       "lectureStartDate": "2026-07-20",
       "lectureEndDate": "2026-07-22",
       "applicationStartDate": "2026-06-11",
@@ -6596,12 +6925,12 @@
       "instructors": [
         "고형호 교수 충남대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2563",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2563",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7f0787c2aa15",
@@ -6627,20 +6956,20 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-06-29",
-          "endDate": "2026-07-14",
+          "endDate": "2026-07-15",
           "startDateTime": "2026-06-29 00:00",
-          "endDateTime": "2026-07-14 23:59"
+          "endDateTime": "2026-07-15 23:59"
         }
       ],
       "instructors": [
         "문현원 교수 대구대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2586",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2586",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-83e5ceae8290",
@@ -6674,12 +7003,90 @@
       "instructors": [
         "김제성 조교수 목포대학교"
       ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2550",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-a021cbb5c8cb",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "연세대-아카데미",
+      "format": "온라인",
+      "title": "CMOS 온도센서 및 레퍼런스 생성 회로",
+      "lectureStartDate": "2026-07-22",
+      "lectureEndDate": "2026-07-23",
+      "applicationStartDate": "2026-07-06",
+      "applicationEndDate": "2026-07-12",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-12",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-12 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-20",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-20 23:59"
+        }
+      ],
+      "instructors": [
+        "최우준 조교수 연세대학교"
+      ],
       "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2550",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2611",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-cdf2f5d1ffb6",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "부산대",
+      "format": "대면",
+      "title": "AI 하드웨어 가속기 설계",
+      "lectureStartDate": "2026-07-22",
+      "lectureEndDate": "2026-07-24",
+      "applicationStartDate": "2026-06-29",
+      "applicationEndDate": "2026-07-05",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-06-29",
+          "endDate": "2026-07-05",
+          "startDateTime": "2026-06-29 00:00",
+          "endDateTime": "2026-07-05 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-20",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-20 23:59"
+        }
+      ],
+      "instructors": [
+        "유인재 부교수 부산대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2601",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-355b5ef75652",
@@ -6713,12 +7120,51 @@
       "instructors": [
         "권나영 사원 시높시스 코리아"
       ],
-      "status": "준비중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2591",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2591",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-abfe2dcfaf7c",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "성균관대-아카데미",
+      "format": "대면",
+      "title": "﻿다양한 AI 모델 및 이를 지원하기 위한 NPU 설계 기술",
+      "lectureStartDate": "2026-07-22",
+      "lectureEndDate": "2026-07-24",
+      "applicationStartDate": "2026-06-30",
+      "applicationEndDate": "2026-07-06",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-06-30",
+          "endDate": "2026-07-06",
+          "startDateTime": "2026-06-30 00:00",
+          "endDateTime": "2026-07-06 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-07",
+          "endDate": "2026-07-15",
+          "startDateTime": "2026-07-07 00:00",
+          "endDateTime": "2026-07-15 23:59"
+        }
+      ],
+      "instructors": [
+        "김동순 교수 세종대학교"
+      ],
+      "status": "마감",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2604",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-672f7144922c",
@@ -6752,12 +7198,12 @@
       "instructors": [
         "한만수 교수 목포대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2549",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2549",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-bd8576d944af",
@@ -6769,34 +7215,26 @@
       "lectureStartDate": "2026-07-22",
       "lectureEndDate": "2026-07-24",
       "applicationStartDate": "2026-06-22",
-      "applicationEndDate": "2026-06-28",
+      "applicationEndDate": "2026-07-19",
       "applicationPeriods": [
-        {
-          "type": "worker_priority",
-          "label": "재직자 우선",
-          "startDate": "2026-06-22",
-          "endDate": "2026-06-28",
-          "startDateTime": "2026-06-22 00:00",
-          "endDateTime": "2026-06-28 23:59"
-        },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-06-29",
+          "startDate": "2026-06-22",
           "endDate": "2026-07-19",
-          "startDateTime": "2026-06-29 00:00",
+          "startDateTime": "2026-06-22 00:00",
           "endDateTime": "2026-07-19 23:59"
         }
       ],
       "instructors": [
         "정용운 조교수 세종대학교"
       ],
-      "status": "신청중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2547",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2547",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7bec3ea4da02",
@@ -6807,24 +7245,24 @@
       "title": "메모리 반도체 및 뉴로모픽 하드웨어",
       "lectureStartDate": "2026-07-27",
       "lectureEndDate": "2026-07-28",
-      "applicationStartDate": "2026-06-22",
-      "applicationEndDate": "2026-06-28",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-07-19",
       "applicationPeriods": [
         {
           "type": "worker_priority",
           "label": "재직자 우선",
-          "startDate": "2026-06-22",
-          "endDate": "2026-06-28",
-          "startDateTime": "2026-06-22 00:00",
-          "endDateTime": "2026-06-28 23:59"
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-19 23:59"
         },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-06-29",
-          "endDate": "2026-06-28",
-          "startDateTime": "2026-06-29 00:00",
-          "endDateTime": "2026-06-28 23:59"
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-23",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-07-23 23:59"
         }
       ],
       "instructors": [
@@ -6832,10 +7270,88 @@
       ],
       "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2518",
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2518",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-36f13906858c",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "광운대-아카데미",
+      "format": "혼합",
+      "title": "인공지능 하드웨어 연구를 위한 딥러닝 기초 및 경량화 기술",
+      "lectureStartDate": "2026-07-27",
+      "lectureEndDate": "2026-07-28",
+      "applicationStartDate": "2026-06-29",
+      "applicationEndDate": "2026-07-05",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-06-29",
+          "endDate": "2026-07-05",
+          "startDateTime": "2026-06-29 00:00",
+          "endDateTime": "2026-07-05 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-22 23:59"
+        }
+      ],
+      "instructors": [
+        "강석주 교수 서강대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2600",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-7cbc3e86eb1b",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "부산대-아카데미",
+      "format": "혼합",
+      "title": "전력반도체 소자 기초 이론",
+      "lectureStartDate": "2026-07-27",
+      "lectureEndDate": "2026-07-28",
+      "applicationStartDate": "2026-07-02",
+      "applicationEndDate": "2026-07-08",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-02",
+          "endDate": "2026-07-08",
+          "startDateTime": "2026-07-02 00:00",
+          "endDateTime": "2026-07-08 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-09",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-09 00:00",
+          "endDateTime": "2026-07-22 23:59"
+        }
+      ],
+      "instructors": [
+        "Hyemin Kang 조교수 한국에너지공과대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=lst2&no=2608",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=2&type=lst2",
       "sourcePage": 2,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e467aee9068e",
@@ -6869,12 +7385,90 @@
       "instructors": [
         "우지용 부교수 경북대학교"
       ],
-      "status": "준비중",
+      "status": "마감",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2596",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2596",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-b9dfc8cc309d",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "부산대",
+      "format": "혼합",
+      "title": "실전 아날로그 회로 설계 및 실습",
+      "lectureStartDate": "2026-07-27",
+      "lectureEndDate": "2026-07-29",
+      "applicationStartDate": "2026-07-02",
+      "applicationEndDate": "2026-07-08",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-02",
+          "endDate": "2026-07-08",
+          "startDateTime": "2026-07-02 00:00",
+          "endDateTime": "2026-07-08 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-09",
+          "endDate": "2026-07-23",
+          "startDateTime": "2026-07-09 00:00",
+          "endDateTime": "2026-07-23 23:59"
+        }
+      ],
+      "instructors": [
+        "김재완 객원교수 강원대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2610",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-b4b98e543aaf",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "금오공대-아카데미",
+      "format": "혼합",
+      "title": "아날로그 회로의 산포 및 잡음 저감 기법",
+      "lectureStartDate": "2026-07-27",
+      "lectureEndDate": "2026-07-29",
+      "applicationStartDate": "2026-06-29",
+      "applicationEndDate": "2026-07-05",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-06-29",
+          "endDate": "2026-07-05",
+          "startDateTime": "2026-06-29 00:00",
+          "endDateTime": "2026-07-05 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-22 23:59"
+        }
+      ],
+      "instructors": [
+        "고형호 교수 충남대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2599",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-61b9118151ac",
@@ -6913,7 +7507,7 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2579",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-30493992f88a",
@@ -6925,34 +7519,26 @@
       "lectureStartDate": "2026-07-27",
       "lectureEndDate": "2026-07-29",
       "applicationStartDate": "2026-06-28",
-      "applicationEndDate": "2026-07-04",
+      "applicationEndDate": "2026-07-22",
       "applicationPeriods": [
-        {
-          "type": "worker_priority",
-          "label": "재직자 우선",
-          "startDate": "2026-06-28",
-          "endDate": "2026-07-04",
-          "startDateTime": "2026-06-28 00:00",
-          "endDateTime": "2026-07-04 23:59"
-        },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-07-05",
+          "startDate": "2026-06-28",
           "endDate": "2026-07-22",
-          "startDateTime": "2026-07-05 00:00",
+          "startDateTime": "2026-06-28 00:00",
           "endDateTime": "2026-07-22 23:59"
         }
       ],
       "instructors": [
         "김병호 교수 한양대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2556",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-119f36003d5f",
@@ -6986,12 +7572,12 @@
       "instructors": [
         "임현철 대표 크로스윈텍"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2578",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2578",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7cc09fdb1486",
@@ -7027,10 +7613,10 @@
       ],
       "status": "정원초과",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2564",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2564",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-4ee2511ae2b6",
@@ -7064,12 +7650,12 @@
       "instructors": [
         "김태형 과장 Cadence"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2570",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2570",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-fa60a2bcda78",
@@ -7103,12 +7689,12 @@
       "instructors": [
         "신현철 교수 광운대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2574",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2574",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-504061ce9577",
@@ -7142,12 +7728,43 @@
       "instructors": [
         "홍성완 부교수 서울대학교"
       ],
-      "status": "준비중",
+      "status": "정원초과",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2590",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-091a45ede3e5",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "한양대-아카데미",
+      "format": "온라인",
+      "title": "Fundamentals and Building Blocks of High-Speed Wireline Interfaces",
+      "lectureStartDate": "2026-07-30",
+      "lectureEndDate": "2026-07-31",
+      "applicationStartDate": "2026-07-07",
+      "applicationEndDate": "2026-07-26",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-07",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-07 00:00",
+          "endDateTime": "2026-07-26 23:59"
+        }
+      ],
+      "instructors": [
+        "김가인 부교수 DGIST"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2614",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-243caf100f7a",
@@ -7173,12 +7790,12 @@
       "instructors": [
         "심동규 교수 광운대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
-      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2575",
-      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
-      "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=2&type=list&no=2575",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=2&type=list",
+      "sourcePage": 2,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-f3040bb9cda4",
@@ -7189,35 +7806,254 @@
       "title": "NPU 설계 기초",
       "lectureStartDate": "2026-08-03",
       "lectureEndDate": "2026-08-04",
-      "applicationStartDate": "2026-06-29",
-      "applicationEndDate": "2026-07-05",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-07-26",
       "applicationPeriods": [
         {
           "type": "worker_priority",
           "label": "재직자 우선",
-          "startDate": "2026-06-29",
-          "endDate": "2026-07-05",
-          "startDateTime": "2026-06-29 00:00",
-          "endDateTime": "2026-07-05 23:59"
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-07-26 23:59"
         },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-07-06",
-          "endDate": "2026-07-05",
-          "startDateTime": "2026-07-06 00:00",
-          "endDateTime": "2026-07-05 23:59"
+          "startDate": "2026-07-27",
+          "endDate": "2026-07-30",
+          "startDateTime": "2026-07-27 00:00",
+          "endDateTime": "2026-07-30 23:59"
         }
       ],
       "instructors": [
         "심재형 조교수 이화여자대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2519",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-5c7c9d937a01",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "경북대",
+      "format": "대면",
+      "title": "AWR을 이용한 RF 수동소자 설계 및 EM 해석",
+      "lectureStartDate": "2026-08-03",
+      "lectureEndDate": "2026-08-05",
+      "applicationStartDate": "2026-07-02",
+      "applicationEndDate": "2026-07-26",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-02",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-02 00:00",
+          "endDateTime": "2026-07-26 23:59"
+        }
+      ],
+      "instructors": [
+        "김연화 책임연구원 나인플러스IT",
+        "최상조 부교수 경북대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2609",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-b9b6861822fd",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "전남대",
+      "format": "혼합",
+      "title": "오픈-소스 도구 활용 “내 칩” 설계 및 제작",
+      "lectureStartDate": "2026-08-03",
+      "lectureEndDate": "2026-08-05",
+      "applicationStartDate": "2026-07-07",
+      "applicationEndDate": "2026-07-13",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-07",
+          "endDate": "2026-07-13",
+          "startDateTime": "2026-07-07 00:00",
+          "endDateTime": "2026-07-13 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-14",
+          "endDate": "2026-07-29",
+          "startDateTime": "2026-07-14 00:00",
+          "endDateTime": "2026-07-29 23:59"
+        }
+      ],
+      "instructors": [
+        "국일호 책임연구원 ETRI"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2613",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-ee058dfe6d14",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "부산대",
+      "format": "대면",
+      "title": "양산 제품 관점에서의 PMIC 실무",
+      "lectureStartDate": "2026-08-05",
+      "lectureEndDate": "2026-08-06",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-07-19",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-19 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-03",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-03 23:59"
+        }
+      ],
+      "instructors": [
+        "정민용 선임연구원 전기연구원"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2617",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-f8bbd2291a5c",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "본센터",
+      "format": "대면",
+      "title": "[Synopsys] FusionCompiler 사용법 및 활용 예",
+      "lectureStartDate": "2026-08-05",
+      "lectureEndDate": "2026-08-07",
+      "applicationStartDate": "2026-07-06",
+      "applicationEndDate": "2026-07-12",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-12",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-12 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-31",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-31 23:59"
+        }
+      ],
+      "instructors": [
+        "최규화 과장 Synopsys"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2602",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-ae5d7753da4c",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "한양대-아카데미",
+      "format": "대면",
+      "title": "RF회로 및 시스템 설계",
+      "lectureStartDate": "2026-08-05",
+      "lectureEndDate": "2026-08-07",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-08-02",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-02",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-02 23:59"
+        }
+      ],
+      "instructors": [
+        "장태환 부교수 한양대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2628",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-cdd99036aeee",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "전남대",
+      "format": "혼합",
+      "title": "Verilog HDL 실습 및 HLS를 사용한 간단한 인공지능 시스템 구현",
+      "lectureStartDate": "2026-08-06",
+      "lectureEndDate": "2026-08-07",
+      "applicationStartDate": "2026-07-06",
+      "applicationEndDate": "2026-07-12",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-06",
+          "endDate": "2026-07-12",
+          "startDateTime": "2026-07-06 00:00",
+          "endDateTime": "2026-07-12 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-31",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-31 23:59"
+        }
+      ],
+      "instructors": [
+        "최현식 부교수 조선대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2587",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-d4dfbb5dd5bd",
@@ -7228,45 +8064,45 @@
       "title": "GPU 프로그래밍 및 분석",
       "lectureStartDate": "2026-08-06",
       "lectureEndDate": "2026-08-07",
-      "applicationStartDate": "2026-07-02",
-      "applicationEndDate": "2026-07-08",
+      "applicationStartDate": "2026-07-16",
+      "applicationEndDate": "2026-07-22",
       "applicationPeriods": [
         {
           "type": "worker_priority",
           "label": "재직자 우선",
-          "startDate": "2026-07-02",
-          "endDate": "2026-07-08",
-          "startDateTime": "2026-07-02 00:00",
-          "endDateTime": "2026-07-08 23:59"
+          "startDate": "2026-07-16",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-16 00:00",
+          "endDateTime": "2026-07-22 23:59"
         },
         {
           "type": "general",
           "label": "전체 신청",
-          "startDate": "2026-07-09",
-          "endDate": "2026-07-08",
-          "startDateTime": "2026-07-09 00:00",
-          "endDateTime": "2026-07-08 23:59"
+          "startDate": "2026-07-23",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-23 00:00",
+          "endDateTime": "2026-07-22 23:59"
         }
       ],
       "instructors": [
         "안정섭 부교수 고려대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2520",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
-      "id": "idec-0688d4fc1d8e",
+      "id": "idec-388c8ff80c0c",
       "track": "worker_priority",
       "trackName": "재직자 우선 교육",
-      "campus": "고려대-아카데미",
+      "campus": "전남대-아카데미",
       "format": "혼합",
-      "title": "임보디드 AI와 임베디드 GPU",
-      "lectureStartDate": "2026-08-10",
-      "lectureEndDate": "2026-08-11",
+      "title": "마이크로컨트롤러에 기반한 FlexRay 통신 다루기",
+      "lectureStartDate": "2026-08-06",
+      "lectureEndDate": "2026-08-07",
       "applicationStartDate": "2026-07-06",
       "applicationEndDate": "2026-07-12",
       "applicationPeriods": [
@@ -7282,20 +8118,129 @@
           "type": "general",
           "label": "전체 신청",
           "startDate": "2026-07-13",
-          "endDate": "2026-07-12",
+          "endDate": "2026-08-02",
           "startDateTime": "2026-07-13 00:00",
-          "endDateTime": "2026-07-12 23:59"
+          "endDateTime": "2026-08-02 23:59"
+        }
+      ],
+      "instructors": [
+        "박수창 대표 유앤아이"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2588",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-a2b80ffb48a3",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "부산대",
+      "format": "혼합",
+      "title": "high speed wireline transceiver architecture and design",
+      "lectureStartDate": "2026-08-10",
+      "lectureEndDate": "2026-08-11",
+      "applicationStartDate": "2026-07-14",
+      "applicationEndDate": "2026-07-20",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-14",
+          "endDate": "2026-07-20",
+          "startDateTime": "2026-07-14 00:00",
+          "endDateTime": "2026-07-20 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-21",
+          "endDate": "2026-08-06",
+          "startDateTime": "2026-07-21 00:00",
+          "endDateTime": "2026-08-06 23:59"
+        }
+      ],
+      "instructors": [
+        "한광석 전무이사 MACOM"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2620",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-0688d4fc1d8e",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "고려대-아카데미",
+      "format": "혼합",
+      "title": "임보디드 AI와 임베디드 GPU",
+      "lectureStartDate": "2026-08-10",
+      "lectureEndDate": "2026-08-11",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-07-26",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-07-26 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-27",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-27 00:00",
+          "endDateTime": "2026-07-26 23:59"
         }
       ],
       "instructors": [
         "갈홍주 조교수 아주대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2521",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-93600a26679a",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "한양대-아카데미",
+      "format": "대면",
+      "title": "OPAMP Design and Optimization",
+      "lectureStartDate": "2026-08-10",
+      "lectureEndDate": "2026-08-11",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-08-05",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-05",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-05 23:59"
+        }
+      ],
+      "instructors": [
+        "전재훈 조교수 인하대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2627",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7fa3e32ff691",
@@ -7334,7 +8279,124 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2565",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-aaa01f0860ed",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "본센터",
+      "format": "대면",
+      "title": "[Scientific Analog] XMODEL을 활용한 DC-DC 컨버터 모델링 및 시뮬레이션",
+      "lectureStartDate": "2026-08-11",
+      "lectureEndDate": "2026-08-12",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-07-19",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-19 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-05",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-05 23:59"
+        }
+      ],
+      "instructors": [
+        "김재하 교수 서울대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2616",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-bb82f20b64fa",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "경북대",
+      "format": "대면",
+      "title": "디지털 시스템 반도체 ASIC 설계",
+      "lectureStartDate": "2026-08-11",
+      "lectureEndDate": "2026-08-13",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-07-19",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-19 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-03",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-03 23:59"
+        }
+      ],
+      "instructors": [
+        "김선민 조교수 경북대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2615",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-c48216a04116",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "전남대",
+      "format": "대면",
+      "title": "Cadence APD를 활용한 IC Package 설계",
+      "lectureStartDate": "2026-08-11",
+      "lectureEndDate": "2026-08-13",
+      "applicationStartDate": "2026-07-09",
+      "applicationEndDate": "2026-07-15",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-09",
+          "endDate": "2026-07-15",
+          "startDateTime": "2026-07-09 00:00",
+          "endDateTime": "2026-07-15 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-16",
+          "endDate": "2026-08-05",
+          "startDateTime": "2026-07-16 00:00",
+          "endDateTime": "2026-08-05 23:59"
+        }
+      ],
+      "instructors": [
+        "황준범 선임연구원 나인플러스IT"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2597",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-5066b56f6389",
@@ -7368,12 +8430,191 @@
       "instructors": [
         "우기찬 선임연구원 한국광기술원"
       ],
-      "status": "신청중",
+      "status": "정원초과",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2566",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-5f622c719ff1",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "금오공대-아카데미",
+      "format": "온라인",
+      "title": "SoC 이론",
+      "lectureStartDate": "2026-08-12",
+      "lectureEndDate": "2026-08-14",
+      "applicationStartDate": "2026-07-15",
+      "applicationEndDate": "2026-07-21",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-15",
+          "endDate": "2026-07-21",
+          "startDateTime": "2026-07-15 00:00",
+          "endDateTime": "2026-07-21 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-22",
+          "endDate": "2026-08-07",
+          "startDateTime": "2026-07-22 00:00",
+          "endDateTime": "2026-08-07 23:59"
+        }
+      ],
+      "instructors": [
+        "이호섭 조교수 금오공과대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2621",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-24de1e745316",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "한양대-아카데미",
+      "format": "혼합",
+      "title": "RF/밀리미터파 회로설계",
+      "lectureStartDate": "2026-08-12",
+      "lectureEndDate": "2026-08-14",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-08-09",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-09",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-09 23:59"
+        }
+      ],
+      "instructors": [
+        "변철우 부교수 단국대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2629",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-fb1fa0b7a2a3",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "광운대-아카데미",
+      "format": "혼합",
+      "title": "HBM과 첨단패키징 기술",
+      "lectureStartDate": "2026-08-13",
+      "lectureEndDate": "2026-08-14",
+      "applicationStartDate": "2026-07-16",
+      "applicationEndDate": "2026-07-22",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-16",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-16 00:00",
+          "endDateTime": "2026-07-22 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-23",
+          "endDate": "2026-08-10",
+          "startDateTime": "2026-07-23 00:00",
+          "endDateTime": "2026-08-10 23:59"
+        }
+      ],
+      "instructors": [
+        "임형광 사장 팔루썸니"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2622",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-2440eb6944bd",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "한양대",
+      "format": "대면",
+      "title": "RF 시스템 및 블락회로 설계 (5G/6G Basestation 및 UE)",
+      "lectureStartDate": "2026-08-18",
+      "lectureEndDate": "2026-08-19",
+      "applicationStartDate": "2026-07-21",
+      "applicationEndDate": "2026-08-12",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-21",
+          "endDate": "2026-08-12",
+          "startDateTime": "2026-07-21 00:00",
+          "endDateTime": "2026-08-12 23:59"
+        }
+      ],
+      "instructors": [
+        "이채준 조교수 강남대학교"
+      ],
+      "status": "준비중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2631",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-00d47a689ee5",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "전남대",
+      "format": "혼합",
+      "title": "생성형 AI 기초 및 실습",
+      "lectureStartDate": "2026-08-18",
+      "lectureEndDate": "2026-08-20",
+      "applicationStartDate": "2026-07-16",
+      "applicationEndDate": "2026-07-22",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-16",
+          "endDate": "2026-07-22",
+          "startDateTime": "2026-07-16 00:00",
+          "endDateTime": "2026-07-22 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-23",
+          "endDate": "2026-08-12",
+          "startDateTime": "2026-07-23 00:00",
+          "endDateTime": "2026-08-12 23:59"
+        }
+      ],
+      "instructors": [
+        "박채훈 조교수 전남대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2619",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-8426a593b4ba",
@@ -7407,12 +8648,12 @@
       "instructors": [
         "김수창 조교수 충북대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2567",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-cebee2410dd8",
@@ -7438,12 +8679,43 @@
       "instructors": [
         "유호영 교수 충남대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2584",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-c54f19604ac5",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "경북대",
+      "format": "대면",
+      "title": "(Cadence)Signal Integrity를 위한 High-Speed PCB 설계",
+      "lectureStartDate": "2026-08-19",
+      "lectureEndDate": "2026-08-20",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-08-11",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-11",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-11 23:59"
+        }
+      ],
+      "instructors": [
+        "임현철 대표 크로스윈텍"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2626",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-cf06548c58fe",
@@ -7477,12 +8749,87 @@
       "instructors": [
         "추민성 조교수 연세대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2522",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-5ed919f13e55",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "전남대-아카데미",
+      "format": "혼합",
+      "title": "반도체 패키징 기초",
+      "lectureStartDate": "2026-08-20",
+      "lectureEndDate": "2026-08-21",
+      "applicationStartDate": "2026-07-20",
+      "applicationEndDate": "2026-07-26",
+      "applicationPeriods": [
+        {
+          "type": "worker_priority",
+          "label": "재직자 우선",
+          "startDate": "2026-07-20",
+          "endDate": "2026-07-26",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-07-26 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-27",
+          "endDate": "2026-08-14",
+          "startDateTime": "2026-07-27 00:00",
+          "endDateTime": "2026-08-14 23:59"
+        }
+      ],
+      "instructors": [
+        "이승제 선임연구원 한국광기술원"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2625",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-98466bc66d72",
+      "track": "worker_priority",
+      "trackName": "재직자 우선 교육",
+      "campus": "한양대-아카데미",
+      "format": "혼합",
+      "title": "메모리/비메모리 테스트 기술",
+      "lectureStartDate": "2026-08-20",
+      "lectureEndDate": "2026-08-22",
+      "applicationStartDate": "2026-07-21",
+      "applicationEndDate": "2026-08-16",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-21",
+          "endDate": "2026-08-16",
+          "startDateTime": "2026-07-21 00:00",
+          "endDateTime": "2026-08-16 23:59"
+        }
+      ],
+      "instructors": [
+        "송동섭 부교수 호서대학교",
+        "이하영 조교수 아주대학교",
+        "강성호 교수 연세대학교",
+        "이영우 조교수 인하대학교",
+        "박성주 교수 한양대학교",
+        "김유빈 조교수 명지대학교"
+      ],
+      "status": "준비중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2630",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-7441cf00ccbc",
@@ -7521,7 +8868,77 @@
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2577",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-bf19964a9a9b",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "전남대",
+      "format": "혼합",
+      "title": "Vivado 기반의 FPGA 설계 실습",
+      "lectureStartDate": "2026-08-24",
+      "lectureEndDate": "2026-08-26",
+      "applicationStartDate": "2026-07-22",
+      "applicationEndDate": "2026-07-28",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-22",
+          "endDate": "2026-07-28",
+          "startDateTime": "2026-07-22 00:00",
+          "endDateTime": "2026-07-28 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-29",
+          "endDate": "2026-08-18",
+          "startDateTime": "2026-07-29 00:00",
+          "endDateTime": "2026-08-18 23:59"
+        }
+      ],
+      "instructors": [
+        "김민석 이사 피코트로닉스"
+      ],
+      "status": "준비중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2618",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-46e9351d8049",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "충북대",
+      "format": "대면",
+      "title": "SoC설계 및 구현",
+      "lectureStartDate": "2026-08-24",
+      "lectureEndDate": "2026-08-26",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-08-19",
+      "applicationPeriods": [
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-13",
+          "endDate": "2026-08-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-08-19 23:59"
+        }
+      ],
+      "instructors": [
+        "공병용 부교수 공주대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2606",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     },
     {
       "id": "idec-e59b9bb249c3",
@@ -7555,12 +8972,51 @@
       "instructors": [
         "윤명국 조교수 이화여자대학교"
       ],
-      "status": "준비중",
+      "status": "신청중",
       "category": null,
       "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=lst2&no=2523",
       "sourceListUrl": "https://www.idec.or.kr/edu/apply/lst2/?page=1&type=lst2",
       "sourcePage": 1,
-      "crawledAt": "2026-06-25T16:51:52+09:00"
+      "crawledAt": "2026-07-20T13:20:41+09:00"
+    },
+    {
+      "id": "idec-cb3a200ae030",
+      "track": "graduate_priority",
+      "trackName": "석박사과정 우선 교육",
+      "campus": "충북대",
+      "format": "대면",
+      "title": "전력반도체회로설계",
+      "lectureStartDate": "2026-08-25",
+      "lectureEndDate": "2026-08-27",
+      "applicationStartDate": "2026-07-13",
+      "applicationEndDate": "2026-07-19",
+      "applicationPeriods": [
+        {
+          "type": "graduate_priority",
+          "label": "석·박사 우선",
+          "startDate": "2026-07-13",
+          "endDate": "2026-07-19",
+          "startDateTime": "2026-07-13 00:00",
+          "endDateTime": "2026-07-19 23:59"
+        },
+        {
+          "type": "general",
+          "label": "전체 신청",
+          "startDate": "2026-07-20",
+          "endDate": "2026-08-19",
+          "startDateTime": "2026-07-20 00:00",
+          "endDateTime": "2026-08-19 23:59"
+        }
+      ],
+      "instructors": [
+        "전현탁 조교수 충북대학교"
+      ],
+      "status": "신청중",
+      "category": null,
+      "sourceUrl": "https://www.idec.or.kr/edu/apply/view/?page=1&type=list&no=2607",
+      "sourceListUrl": "https://www.idec.or.kr/edu/apply/list/?page=1&type=list",
+      "sourcePage": 1,
+      "crawledAt": "2026-07-20T13:20:41+09:00"
     }
   ]
 }

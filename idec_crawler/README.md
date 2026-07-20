@@ -152,7 +152,7 @@ IDEC_CUTOFF_DATE=none uv run python main.py
 네트워크가 느린 환경에서는 요청 타임아웃을 조정할 수 있습니다.
 
 ```bash
-IDEC_CONNECT_TIMEOUT_SEC=30 IDEC_READ_TIMEOUT_SEC=60 uv run python main.py
+IDEC_CONNECT_TIMEOUT_SEC=5 IDEC_READ_TIMEOUT_SEC=15 uv run python main.py
 ```
 
 ## ID 생성 규칙
