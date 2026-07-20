@@ -8,6 +8,10 @@ import {
   Laptop,
   Link as LinkIcon,
   LocateFixed,
+  Bell,
+  BellRing,
+  Trash2,
+  X,
   RefreshCw,
   Search,
 } from "lucide-react";
@@ -69,8 +73,19 @@ type ApplicationSegment = {
   isStart: boolean;
   isEnd: boolean;
 };
+type LectureReminder = {
+  id: string;
+  lectureId: string;
+  lectureTitle: string;
+  periodLabel: string;
+  startsAt: string;
+  sourceUrl: string;
+  createdAt: string;
+  notifiedAt: string | null;
+};
 
 const DAY_MS = 24 * 60 * 60 * 1000;
+const REMINDERS_KEY = "idec-application-reminders-v1";
 const categoryOptions: CategoryKey[] = ["전체", "Analog", "Digital", "Mixed", "SW", "PCB"];
 const formatOptions = ["전체", "대면", "온라인", "혼합"];
 const derivedStatusOptions: Array<"전체" | DerivedStatus> = [
@@ -203,6 +218,33 @@ function formatRange(start: string | null, end: string | null): string {
     return "일정 미정";
   }
   return `${start.slice(5)} ~ ${end.slice(5)}`;
+}
+
+function periodStartIso(period: ApplicationPeriod): string {
+  const raw = period.startDateTime || `${period.startDate} 00:00`;
+  return `${raw.replace(" ", "T")}:00+09:00`;
+}
+
+function formatReminderDate(value: string): string {
+  return new Intl.DateTimeFormat("ko-KR", {
+    timeZone: "Asia/Seoul",
+    month: "long",
+    day: "numeric",
+    weekday: "short",
+    hour: "2-digit",
+    minute: "2-digit",
+    hour12: false
+  }).format(new Date(value));
+}
+
+function readReminders(): LectureReminder[] {
+  if (typeof window === "undefined") return [];
+  try {
+    const parsed = JSON.parse(window.localStorage.getItem(REMINDERS_KEY) || "[]");
+    return Array.isArray(parsed) ? parsed : [];
+  } catch {
+    return [];
+  }
 }
 
 function getFormatTone(lecture: Lecture): "offline" | "online" | "mixed" {
@@ -381,6 +423,81 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
   const [selectedFormat, setSelectedFormat] = useState("전체");
   const [selectedStatus, setSelectedStatus] = useState<"전체" | DerivedStatus>("전체");
   const [query, setQuery] = useState("");
+  const [reminders, setReminders] = useState<LectureReminder[]>([]);
+  const [remindersLoaded, setRemindersLoaded] = useState(false);
+  const [showReminderManager, setShowReminderManager] = useState(false);
+  const [notificationPermission, setNotificationPermission] = useState<NotificationPermission | "unsupported">("unsupported");
+
+  useEffect(() => {
+    setReminders(readReminders());
+    setRemindersLoaded(true);
+    setNotificationPermission(typeof Notification === "undefined" ? "unsupported" : Notification.permission);
+  }, []);
+
+  useEffect(() => {
+    if (!remindersLoaded) return;
+    window.localStorage.setItem(REMINDERS_KEY, JSON.stringify(reminders));
+  }, [reminders, remindersLoaded]);
+
+  useEffect(() => {
+    if (!("serviceWorker" in navigator)) return;
+    const base = import.meta.env.BASE_URL || "/";
+    navigator.serviceWorker.register(`${base.replace(/\/?$/, "/")}notification-sw.js`, { scope: base }).catch(() => {
+      // 알림을 사용하지 않는 브라우저에서도 캘린더는 정상 동작해야 합니다.
+    });
+  }, []);
+
+  useEffect(() => {
+    const checkDueReminders = async () => {
+      if (typeof Notification === "undefined" || Notification.permission !== "granted") return;
+      const now = Date.now();
+      const due = reminders.filter((item) => !item.notifiedAt && new Date(item.startsAt).getTime() <= now);
+      if (!due.length) return;
+      const registration = "serviceWorker" in navigator ? await navigator.serviceWorker.ready.catch(() => null) : null;
+      for (const item of due) {
+        const options = {
+          body: `${item.periodLabel} 신청이 시작되었습니다. 지금 신청 페이지를 확인하세요.`,
+          icon: `${(import.meta.env.BASE_URL || "/").replace(/\/?$/, "/")}favicon.svg`,
+          tag: item.id,
+          data: { url: item.sourceUrl }
+        };
+        if (registration) await registration.showNotification(item.lectureTitle, options);
+        else new Notification(item.lectureTitle, options);
+      }
+      const notifiedIds = new Set(due.map((item) => item.id));
+      setReminders((current) => current.map((item) => notifiedIds.has(item.id) ? { ...item, notifiedAt: new Date().toISOString() } : item));
+    };
+    void checkDueReminders();
+    const timer = window.setInterval(checkDueReminders, 30_000);
+    const onVisible = () => document.visibilityState === "visible" && void checkDueReminders();
+    document.addEventListener("visibilitychange", onVisible);
+    return () => {
+      window.clearInterval(timer);
+      document.removeEventListener("visibilitychange", onVisible);
+    };
+  }, [reminders]);
+
+  const addReminder = async (lecture: Lecture, period: ApplicationPeriod) => {
+    if (typeof Notification === "undefined") {
+      setNotificationPermission("unsupported");
+      return;
+    }
+    let permission = Notification.permission;
+    if (permission === "default") permission = await Notification.requestPermission();
+    setNotificationPermission(permission);
+    if (permission !== "granted") return;
+    const id = `${lecture.id}:${period.type}:${period.startDateTime || period.startDate}`;
+    setReminders((current) => current.some((item) => item.id === id) ? current : [...current, {
+      id,
+      lectureId: lecture.id,
+      lectureTitle: lecture.title,
+      periodLabel: period.label,
+      startsAt: periodStartIso(period),
+      sourceUrl: lecture.sourceUrl,
+      createdAt: new Date().toISOString(),
+      notifiedAt: null
+    }].sort((a, b) => a.startsAt.localeCompare(b.startsAt)));
+  };
 
   useEffect(() => {
     if (initialPayload) {
@@ -531,6 +648,11 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
         </div>
         <div className="top-actions">
           <span className="updated-at">업데이트: {updatedAtText}</span>
+          <button className="reminder-manager-button" onClick={() => setShowReminderManager(true)}>
+            <Bell size={17} />
+            알림 관리
+            {reminders.filter((item) => !item.notifiedAt).length > 0 && <b>{reminders.filter((item) => !item.notifiedAt).length}</b>}
+          </button>
           <div className="search-box">
             <Search size={17} />
             <input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="강의명 검색" />
@@ -660,7 +782,13 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
             </div>
             {selectedLecture ? (
               <>
-                <SelectedLectureSummary lecture={selectedLecture} periods={selectedApplicationPeriods} />
+                <SelectedLectureSummary
+                  lecture={selectedLecture}
+                  periods={selectedApplicationPeriods}
+                  reminderIds={new Set(reminders.map((item) => item.id))}
+                  notificationPermission={notificationPermission}
+                  onAddReminder={addReminder}
+                />
                 <div className="weekday-row">
                   {weekdayLabels.map((label) => (
                     <span key={label}>{label}</span>
@@ -709,6 +837,14 @@ function App({ initialPayload = null }: { initialPayload?: LecturesPayload | nul
           </section>
         </section>
       </main>
+      {showReminderManager && (
+        <ReminderManager
+          reminders={reminders}
+          permission={notificationPermission}
+          onClose={() => setShowReminderManager(false)}
+          onRemove={(id) => setReminders((current) => current.filter((item) => item.id !== id))}
+        />
+      )}
     </div>
   );
 }
@@ -749,7 +885,19 @@ function PillGroup<T extends string>({
   );
 }
 
-function SelectedLectureSummary({ lecture, periods }: { lecture: Lecture; periods: ApplicationPeriod[] }) {
+function SelectedLectureSummary({
+  lecture,
+  periods,
+  reminderIds,
+  notificationPermission,
+  onAddReminder
+}: {
+  lecture: Lecture;
+  periods: ApplicationPeriod[];
+  reminderIds: Set<string>;
+  notificationPermission: NotificationPermission | "unsupported";
+  onAddReminder: (lecture: Lecture, period: ApplicationPeriod) => void;
+}) {
   return (
     <div className="selected-lecture">
       <div className="selected-lecture-title">
@@ -767,9 +915,48 @@ function SelectedLectureSummary({ lecture, periods }: { lecture: Lecture; period
           <div key={`${period.type}-${period.startDate}-${period.endDate}`} className={`period-row ${getApplicationTone(period)}`}>
             <span>{period.label}</span>
             <strong>{formatRange(period.startDate, period.endDate)}</strong>
+            <button
+              className="period-reminder-button"
+              disabled={reminderIds.has(`${lecture.id}:${period.type}:${period.startDateTime || period.startDate}`) || new Date(periodStartIso(period)).getTime() <= Date.now()}
+              onClick={() => onAddReminder(lecture, period)}
+              title="신청 시작 시 브라우저 알림"
+            >
+              <BellRing size={14} />
+              {reminderIds.has(`${lecture.id}:${period.type}:${period.startDateTime || period.startDate}`) ? "등록됨" : "알림 신청"}
+            </button>
           </div>
         ))}
       </div>
+      {notificationPermission === "denied" && <p className="notification-warning">브라우저 설정에서 이 사이트의 알림 권한을 허용해 주세요.</p>}
+      {notificationPermission === "unsupported" && <p className="notification-warning">이 브라우저는 알림 기능을 지원하지 않습니다.</p>}
+    </div>
+  );
+}
+
+function ReminderManager({ reminders, permission, onClose, onRemove }: {
+  reminders: LectureReminder[];
+  permission: NotificationPermission | "unsupported";
+  onClose: () => void;
+  onRemove: (id: string) => void;
+}) {
+  return (
+    <div className="reminder-overlay" role="presentation" onMouseDown={(event) => event.target === event.currentTarget && onClose()}>
+      <section className="reminder-dialog" role="dialog" aria-modal="true" aria-labelledby="reminder-title">
+        <div className="reminder-dialog-header">
+          <div><p className="eyebrow">브라우저 알림</p><h2 id="reminder-title">등록 알림 관리</h2></div>
+          <button aria-label="닫기" onClick={onClose}><X size={20} /></button>
+        </div>
+        <div className={`permission-status ${permission}`}><span />알림 권한: {permission === "granted" ? "허용됨" : permission === "denied" ? "차단됨" : permission === "default" ? "아직 선택하지 않음" : "지원하지 않음"}</div>
+        <p className="reminder-note">알림은 이 기기의 브라우저에 저장됩니다. 정적 웹앱 특성상 앱이 열려 있을 때 신청 시작을 감지해 알려드리며, 브라우저가 완전히 종료된 상태의 알림은 보장되지 않습니다.</p>
+        <div className="reminder-list">
+          {reminders.length ? reminders.map((item) => (
+            <article className="reminder-item" key={item.id}>
+              <div><strong>{item.lectureTitle}</strong><span>{item.periodLabel} · {formatReminderDate(item.startsAt)}</span><small>{item.notifiedAt ? "알림 완료" : new Date(item.startsAt).getTime() <= Date.now() ? "확인 대기" : "알림 예정"}</small></div>
+              <button aria-label={`${item.lectureTitle} 알림 삭제`} onClick={() => onRemove(item.id)}><Trash2 size={17} /></button>
+            </article>
+          )) : <div className="reminder-empty"><Bell size={28} /><strong>등록한 알림이 없습니다.</strong><span>강의를 선택하고 신청 기간 옆의 알림 신청을 눌러보세요.</span></div>}
+        </div>
+      </section>
     </div>
   );
 }
